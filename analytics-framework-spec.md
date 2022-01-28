@@ -12,7 +12,7 @@ In the future, the new table we want to build will allow to have the KPI dashboa
 
 **Last round view**
 
-![Screen Shot 2022-01-13 at 11.56.42 AM.png](OceanDAO%20Grants%20Analytics%20Framework%20Spec%2048199a82ada64b4b94d2ec53b01c3b6b/Screen_Shot_2022-01-13_at_11.56.42_AM.png)
+<img src="https://github.com/m3-labs/oceandao-grants/blob/main/images/Screen_Shot_2022-01-13_at_11.56.42_AM.png">
 
 **Previous rounds view**
 
@@ -135,7 +135,7 @@ There are modifications that can enhance the current DAOBot process which in tur
 
 # Resources
 
-[https://port.oceanprotocol.com/t/davide-crapis-oceandao-grants-analytics-framework/1159](https://port.oceanprotocol.com/t/davide-crapis-oceandao-grants-analytics-framework/1159)
+[Ocean Port Proposal R12](https://port.oceanprotocol.com/t/davide-crapis-oceandao-grants-analytics-framework/1159)
 
 [Output spreadsheet](https://docs.google.com/spreadsheets/d/1e4xb6m-aKcBhwob_p7ereSFneXFPpDjUbSjz13smmHI/edit#gid=626352412)
 
