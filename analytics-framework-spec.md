@@ -16,7 +16,7 @@ In the future, the new table we want to build will allow to have the KPI dashboa
 
 **Previous rounds view**
 
-![Screen Shot 2022-01-13 at 12.01.42 PM.png](OceanDAO%20Grants%20Analytics%20Framework%20Spec%2048199a82ada64b4b94d2ec53b01c3b6b/Screen_Shot_2022-01-13_at_12.01.42_PM.png)
+<img src="https://github.com/m3-labs/oceandao-grants/blob/main/images/Screen_Shot_2022-01-13_at_12.01.42_PM.png">
 
 ## KPIs by round
 
@@ -49,7 +49,9 @@ The new table also allows to conduct ad-hoc analyses to inspect the vote distrib
 1. Top 5% of voters casted 25% of the total vote. This is due to both **unequal token distribution** and the fact that **before R11 voters could spend their tokens multiple times**. Note: this has since partially been addressed by implementing *simple ballots* and *quadratic voting*.
 2. Most non-whale voters are always voting YES on projects, while whale votes are more differentiated. A few whales always vote NO. See figure below.
 
-![Screen Shot 2022-01-28 at 1.32.29 PM.png](OceanDAO%20Grants%20Analytics%20Framework%20Spec%2048199a82ada64b4b94d2ec53b01c3b6b/Screen_Shot_2022-01-28_at_1.32.29_PM.png)
+<p align="center">
+<img src="https://github.com/m3-labs/oceandao-grants/blob/main/images/Screen_Shot_2022-01-28_at_1.32.29_PM.png">
+</p>
 
 > Fraction of YES votes (1.0 is 100% YES) out of total votes cast in all previous rounds for whale (True) and non-whale (False) voters. A whale is defined as an address that is in the top 5% of the voting power distribution (X00,000 of OCEAN voting power).
 > 
@@ -101,7 +103,9 @@ We use the same sources of data that are currently used by DAOBot: Airtable for 
 
 We propose a simple framework with two base tables for **Proposals** and **Votes**. Plus, a new **address-level** table or view derived from these two.
 
-![Screen Shot 2022-01-28 at 12.31.47 PM.png](OceanDAO%20Grants%20Analytics%20Framework%20Spec%2048199a82ada64b4b94d2ec53b01c3b6b/Screen_Shot_2022-01-28_at_12.31.47_PM.png)
+<p align="center">
+<img src="https://github.com/m3-labs/oceandao-grants/blob/main/images/Screen_Shot_2022-01-28_at_12.31.47_PM.png">
+</p>
 
 > Entity relationship diagram for base tables.
 > 
@@ -110,7 +114,9 @@ We propose a simple framework with two base tables for **Proposals** and **Votes
 
 The new address level data table can be easily computed from the two main tables above. We could set up a simple ETL for this, but provided that the two main tables are maintained and updated in the right format a simple merge would do. The address-level table schema is similar to the one we used in the demonstrations and analyses in Section 1. See diagram below.
 
-![Screen Shot 2022-01-28 at 12.31.54 PM.png](OceanDAO%20Grants%20Analytics%20Framework%20Spec%2048199a82ada64b4b94d2ec53b01c3b6b/Screen_Shot_2022-01-28_at_12.31.54_PM.png)
+<p align="center">
+<img src="https://github.com/m3-labs/oceandao-grants/blob/main/images/Screen_Shot_2022-01-28_at_12.31.54_PM.png">
+</p>
 
 This table will have the required fields listed below plus some optional fields that can be added in the future if/when the voting process is modified.
 
